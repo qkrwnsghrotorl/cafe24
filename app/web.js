@@ -23,4 +23,9 @@ const home = require("./src/routes/home")
 // 미들웨어 method
 app.use("/", home);
 
+app.listen(PORT, () => {
+    console.log("서버 가동");
+})
+
 module.exports = app;
+
