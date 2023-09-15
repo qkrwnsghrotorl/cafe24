@@ -1,6 +1,6 @@
 "use strict";
 // PORT
-const PORT = 3000;
+const PORT = 8002;
 
 // module - express
 const express = require("express");
